@@ -10,7 +10,7 @@ struct Student {
 };
 
 int main() {
-    struct Student s1 = {1, "Tanveer", 85.5};
+    struct Student s1 = {1, "Chand miyan", 85.5};
     printf("Student Roll: %d\n", s1.roll);
     printf("Student Name: %s\n", s1.name);
     printf("Student Marks: %.2f\n", s1.marks);
@@ -20,7 +20,7 @@ int main() {
 /* 
 OUTPUT:
 Student Roll: 1
-Student Name: Tanveer 
+Student Name: Chand miyan 
 Student Marks: 85.50 */
 
 
